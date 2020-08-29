@@ -190,7 +190,7 @@ def plot_gh_results(weights, estimates, predictions, actual, time_step=0):
 
 
 def print_results(estimates, prediction, weight):
-    print('previous estimate: {:.2f}, prediction: {:.2f}, estimate {:.2f}'.format(
+    print('上次估计: {:.2f}, 预测: {:.2f}, 估计 {:.2f}'.format(
           estimates[-2], prediction, weight))
 
 
